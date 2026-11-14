@@ -1,0 +1,13 @@
+type: plugin4
+name: FinderPlugin
+version: 0.1.0
+displayName: Finder Plugin
+description: Control macOS Finder with Logitech Actions devices.
+author: FL0R1AN
+minimumLoupedeckVersion: 6.3
+
+pluginType: remote
+pluginRuntime: nodejs
+entryPoint: index.mjs
+
+pluginCapabilities:
