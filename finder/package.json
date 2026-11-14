@@ -26,7 +26,7 @@
     "@logitech/plugin-toolkit": "0.1.1",
     "@types/node": "^22.18.8",
     "cross-env": "^7.0.3",
-    "tsup": "^8.5.0",
+    "tsup": "^9.0.0",
     "typescript": "^5.9.3",
     "yaml": "^2.8.1"
   }
