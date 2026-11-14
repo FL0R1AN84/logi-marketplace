@@ -1,6 +1,7 @@
 import { unlinkPlugin, postBuildProcessing } from '@logitech/plugin-toolkit';
 import { esmShimPlugin } from '@logitech/plugin-toolkit/esbuild';
-import { dirname } from 'node:path';
+import { copyFile } from 'node:fs/promises';
+import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { defineConfig } from 'tsup';
 
@@ -22,6 +23,7 @@ export default defineConfig({
   onSuccess: async () => {
     console.log('Finder plugin build completed.');
     await postBuildProcessing(directory, watchEnabled);
+    await copyFile(join(directory, 'LICENSE'), join(directory, 'dist', 'LICENSE'));
   },
   watch: watchEnabled,
   shims: true,

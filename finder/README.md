@@ -55,7 +55,7 @@ valuable data.
 ## Package for submission
 
 Confirm the plugin's Marketplace metadata, license and support links, and
-review the EULA draft before submission. The editable icon source is
+review the [EULA draft](EULA.md) before submission. The editable icon source is
 `assets/plugin-icon.svg`. Then build and package:
 
 ```sh
@@ -68,6 +68,15 @@ Logitech requires proper testing on supported hardware, a final plugin icon,
 compatible metadata, a Developer EULA, and acceptance of the Marketplace
 Developer Agreement. Submission is reviewed and publication is subject to
 Logitech approval.
+
+## License
+
+The Finder plugin is licensed under the [MIT License](LICENSE).
+Third-party components have their own notices in
+[`package/THIRD-PARTY-NOTICES.txt`](package/THIRD-PARTY-NOTICES.txt).
+Before submission, check with Logitech whether the MIT license satisfies its
+Developer EULA requirement. If a separate EULA is needed, review the draft for
+compatibility with the MIT license before using it.
 
 ## macOS permissions
 

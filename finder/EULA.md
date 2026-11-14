@@ -4,7 +4,7 @@
 
 Developer: FL0R1AN  
 Product: Finder Plugin for macOS  
-Contact: [add support URL or email address]
+Contact: https://github.com/FL0R1AN84/logi-marketplace
 
 ## License
 

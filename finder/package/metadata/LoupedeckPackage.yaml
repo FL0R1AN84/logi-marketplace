@@ -1,9 +1,12 @@
 type: plugin4
-name: FinderPlugin
+name: FL0R1ANs_Finder
 version: 0.1.0
 displayName: Finder Plugin
 description: Control macOS Finder with Logitech Actions devices.
 author: FL0R1AN
+supportPageUrl: https://github.com/FL0R1AN84/logi-marketplace
+license: MIT
+licenseUrl: https://opensource.org/licenses/MIT
 minimumLoupedeckVersion: 6.3
 
 pluginType: remote

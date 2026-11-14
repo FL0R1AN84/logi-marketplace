@@ -15,7 +15,7 @@
     "watch": "npm run typecheck && tsup --watch"
   },
   "author": "FL0R1AN",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "engines": {
     "node": ">=22.0.0"
   },
